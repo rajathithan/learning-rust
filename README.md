@@ -15,7 +15,7 @@ Rust learning workspace with a few standalone crates. Each folder is a separate 
 **Usage**
 - **Prereq**: Install Rust and Cargo via `rustup`.
 - **Run a crate**:
-	- `cd folder && cargo run src\main.rs`
+	- `cd folder && cargo run src/main.rs`
 - **Build only**:
 	- `cargo build` (debug)
 	- `cargo build --release` (optimized)
