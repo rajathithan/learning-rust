@@ -10,6 +10,7 @@ Rust learning workspace with a few standalone crates. Each folder is a separate 
 - **`scopes/`**: Demonstrates scope rules in Rust: block scopes, variable visibility, and lifetimes of bindings within nested `{} ` blocks.
 - **`constants/`**: Shows how to define and use `const` and `static` values, naming conventions (SCREAMING_SNAKE_CASE), and compile-time evaluation.
 - **`typealiases/`**: Introduces `type` aliases to simplify complex types (e.g., `Result<T, E>` forms), improve readability, and clarify intent.
+ - **`directives/`**: Demonstrates compiler attributes and directives (e.g., `#[allow(unused_variables)]`) alongside `type` aliases. Shows how to use attributes to control warnings and annotate code.
 
 
 **Usage**

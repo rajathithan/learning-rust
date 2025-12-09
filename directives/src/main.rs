@@ -1,7 +1,7 @@
 type Meters = u32;
 type Kilometers = u32;
 
-
+//#[allow(unused_variables)]
 fn main() {
     #[allow(unused_variables)]
     let distance_in_meters: Meters = 5000;
