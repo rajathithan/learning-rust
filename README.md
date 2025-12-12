@@ -4,7 +4,7 @@ Rust learning workspace with a few standalone crates. Each folder is a separate 
 
 **Folders**
 - **`firstrun/`**: Minimal first Rust program to verify toolchain and project setup. Useful as a sanity check that `cargo run` works.
-- **`variables_test/`**: Exercises around variable declarations, shadowing, constants, and type annotations. Includes debug and release builds in `target/`.
+- **`variables_test/`**: Exercises around variable declarations & interpolations.
 - **`mutables/`**: Experiments with mutable variables and reassignment. Demonstrates `let` vs `mut`, basic types, and simple output.
 - **`shadow/`**: Focused on variable shadowing examples. Shows how re-declaring with `let` can transform values while keeping immutability per binding.
 - **`scopes/`**: Demonstrates scope rules in Rust: block scopes, variable visibility, and lifetimes of bindings within nested `{} ` blocks.
