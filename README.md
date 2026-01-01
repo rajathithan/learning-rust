@@ -11,6 +11,7 @@ Rust learning workspace with a few standalone crates. Each folder is a separate 
 - **`constants/`**: Shows how to define and use `const` and `static` values, naming conventions (SCREAMING_SNAKE_CASE), and compile-time evaluation.
 - **`typealiases/`**: Introduces `type` aliases to simplify complex types (e.g., `Result<T, E>` forms), improve readability, and clarify intent.
  - **`directives/`**: Demonstrates compiler attributes and directives (e.g., `#[allow(unused_variables)]`) alongside `type` aliases. Shows how to use attributes to control warnings and annotate code.
+- **`strings/`**: Basics of Rust strings. Demonstrates regular string literals (with escape sequences), raw string literals (`r"..."`, `r#"..."#`), and explains the distinction between borrowed `&str` slices and owned `String` values.
 
 
 **Usage**
