@@ -21,6 +21,8 @@ Rust learning workspace with a few standalone crates. Each folder is a separate 
 
 - **`strings/`**: Basics of Rust strings. Demonstrates regular string literals (with escape sequences), raw string literals (`r"..."`, `r#"..."#`), and explains the distinction between borrowed `&str` slices and owned `String` values.
 
+- **`floats/`**: Floating-point numbers in Rust. Covers `f32` vs `f64` (IEEE-754), printing with format specifiers (e.g., `{:.2}` for precision, `{:e}` for scientific notation), and common methods like `.ceil()`, `.floor()`, and `.round()`.
+
 
 **Usage**
 - **Prereq**: Install Rust and Cargo via `rustup`.
