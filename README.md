@@ -5,7 +5,7 @@ Rust learning workspace with a few standalone crates. Each folder is a separate 
 **Exercises**
 - **`firstrun/`**: Minimal first Rust program to verify toolchain and project setup. Useful as a sanity check that `cargo run` works.
 
-- **`variables_test/`**: Exercises around variable declarations & interpolations.
+- **`variables/`**: Exercises around variable declarations & interpolations.
 
 - **`mutables/`**: Experiments with mutable variables and reassignment. Demonstrates `let` vs `mut`, basic types, and simple output.
 
