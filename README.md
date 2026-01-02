@@ -23,6 +23,14 @@ Rust learning workspace with a few standalone crates. Each folder is a separate 
 
 - **`floats/`**: Floating-point numbers in Rust. Covers `f32` vs `f64` (IEEE-754), printing with format specifiers (e.g., `{:.2}` for precision, `{:e}` for scientific notation), and common methods like `.ceil()`, `.floor()`, and `.round()`.
 
+- **`casting/`**: Type casting in Rust using the `as` keyword. Demonstrates converting between integer and floating-point types, including potential data loss.
+
+- **`mathops/`**: Basic arithmetic operations in Rust. Covers addition, subtraction, multiplication, division, and modulo operations on integers.
+
+- **`augops/`**: Augmented assignment operators. Shows compound assignments like `+=`, `-=`, `*=`, `/=` for modifying mutable variables.
+
+- **`boolean/`**: Boolean logic and conditional statements. Demonstrates `bool` type, logical operators (`&&`, `||`, `!`), and `if-else` chains for decision-making.
+
 
 **Usage**
 - **Prereq**: Install Rust and Cargo via `rustup`.
