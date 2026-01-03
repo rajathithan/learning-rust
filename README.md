@@ -31,6 +31,8 @@ Rust learning workspace with a few standalone crates. Each folder is a separate 
 
 - **`boolean/`**: Boolean logic and conditional statements. Demonstrates `bool` type, logical operators (`&&`, `||`, `!`), and `if-else` chains for decision-making.
 
+- **`characters/`**: Introduction to the `char` type in Rust. Demonstrates single Unicode characters, including letters, symbols, and emojis, and how to print them.
+
 
 **Usage**
 - **Prereq**: Install Rust and Cargo via `rustup`.
