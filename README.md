@@ -33,6 +33,8 @@ Rust learning workspace with a few standalone crates. Each folder is a separate 
 
 - **`characters/`**: Introduction to the `char` type in Rust. Demonstrates single Unicode characters, including letters, symbols, and emojis, and how to print them.
 
+- **`arrays/`**: Working with arrays in Rust. Covers fixed-size arrays, indexing, iteration, mutability, slicing, and multidimensional arrays.
+
 
 **Usage**
 - **Prereq**: Install Rust and Cargo via `rustup`.
