@@ -1,6 +1,9 @@
 fn main() {
     // Declare an array of integers
     let numbers: [i32; 5] = [10, 20, 30, 40, 50];
+    // The below line would cause a compile-time error 
+    // because arrays do not implement Display trait
+    // println("Array of numbers: {}", numbers);
     println!("Array of numbers: {:?}", numbers);
 
     // Accessing elements by index
@@ -59,5 +62,6 @@ fn main() {
     // Copying arrays
     let copied_array = numbers;
     println!("Copied array: {:?}", copied_array);
+
 
 }
