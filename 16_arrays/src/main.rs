@@ -9,6 +9,8 @@ fn main() {
     // pretty print
     println!("Array of numbers {:#?}", numbers);
 
+    // Another way to print is to use the Debug Macro
+    dbg!(&numbers);
 
     // Accessing elements by index
     println!("First element: {}", numbers[0]);
