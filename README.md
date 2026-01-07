@@ -35,6 +35,10 @@ Rust learning workspace with a few standalone crates. Each folder is a separate 
 
 - **`arrays/`**: Working with arrays in Rust. Covers fixed-size arrays, indexing, iteration, mutability, slicing, and multidimensional arrays.
 
+- **`tuples/`**: Working with tuples in Rust. Covers tuple creation, destructuring, accessing elements by index, and tuple methods.
+
+- **`ranges/`**: Introduction to ranges in Rust. Demonstrates exclusive (`..`) and inclusive (`..=`) ranges for integers and characters, iteration over ranges, and range types like `Range` and `RangeInclusive`.
+
 
 **Usage**
 - **Prereq**: Install Rust and Cargo via `rustup`.
