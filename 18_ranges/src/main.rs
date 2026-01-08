@@ -1,5 +1,7 @@
 fn main() {
     
+    // Generic is used for defining arguments and return types of functions, structs, enums, and traits.
+    // For the below example, we are using std::ops::Range and std::ops::RangeInclusive to define ranges.
     let monthdays_exclusive: std::ops::Range<i32> = 1..31;
     let monthdays_inclusive: std::ops::RangeInclusive<i32> = 1..=31;
 
