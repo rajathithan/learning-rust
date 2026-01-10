@@ -9,7 +9,7 @@ fn apply_to_jobs(number: i32, title: &str) -> String {
 fn is_even(number: i32) -> bool {
     number % 2 == 0
 }
-
+ 
 // function that returns a tuple of booleans
 // explicit return of the expression
 fn alphabets(s: &str) -> (bool, bool) {
