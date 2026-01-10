@@ -5,15 +5,15 @@ fn apply_to_jobs(number: i32, title: &str) -> String {
 
 // function that returns a boolean
 // notice that there is no semicolon or the return keyword
+// implicit return of the expression
 fn is_even(number: i32) -> bool {
     number % 2 == 0
 }
 
 // function that returns a tuple of booleans
+// explicit return of the expression
 fn alphabets(s: &str) -> (bool, bool) {
-    let has_a = s.contains('a');
-    let has_z = s.contains('z');
-    (has_a, has_z)
+    return (s.contains('a'), s.contains('z'));
 }
 
 fn main() {
