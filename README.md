@@ -43,6 +43,8 @@ Rust learning workspace with a few standalone crates. Each folder is a separate 
 
  - **`20_ifelse/`**: `if`, `else if`, and `else` conditionals. Shows branching logic, nested conditionals, and simple comparisons in practice.
 
+- **`21_match/`**: Introduction to the `match` expression in Rust. Demonstrates pattern matching on values, multiple patterns in a single arm, match guards with `if` conditions, and exhaustive matching.
+
 **Usage**
 - **Prereq**: Install Rust and Cargo via `rustup`.
 - **Run a crate**:
