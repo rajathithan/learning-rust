@@ -41,10 +41,12 @@ Rust learning workspace with a few standalone crates. Each folder is a separate 
 
 - **`19_functions/`**: Introduction to functions in Rust. Demonstrates defining functions with parameters, return types, and different return values including strings, booleans, and tuples.
 
+ - **`20_ifelse/`**: `if`, `else if`, and `else` conditionals. Shows branching logic, nested conditionals, and simple comparisons in practice.
+
 **Usage**
 - **Prereq**: Install Rust and Cargo via `rustup`.
 - **Run a crate**:
-	- `cd folder && cargo run src/main.rs`
+ 	- `cd folder && cargo run`
 - **Build only**:
 	- `cargo build` (debug)
 	- `cargo build --release` (optimized)
