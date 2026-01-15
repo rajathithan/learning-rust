@@ -45,6 +45,8 @@ Rust learning workspace with a few standalone crates. Each folder is a separate 
 
 - **`21_match/`**: Introduction to the `match` expression in Rust. Demonstrates pattern matching on values, multiple patterns in a single arm, match guards with `if` conditions, and exhaustive matching.
 
+- **`22_loop/`**: Introduction to the `loop` keyword in Rust. Demonstrates infinite loops with `break` and `continue` statements, conditional logic within loops, and countdown examples.
+
 **Usage**
 - **Prereq**: Install Rust and Cargo via `rustup`.
 - **Run a crate**:
