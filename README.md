@@ -47,6 +47,10 @@ Rust learning workspace with a few standalone crates. Each folder is a separate 
 
 - **`22_loop/`**: Introduction to the `loop` keyword in Rust. Demonstrates infinite loops with `break` and `continue` statements, conditional logic within loops, and countdown examples.
 
+- **`23_while/`**: Introduction to the `while` loop in Rust. Demonstrates conditional loops that run as long as a condition is true, loop counters, and breaking out of loops.
+
+- **`24_recursion/`**: Introduction to recursion in Rust. Demonstrates recursive functions with the Fibonacci sequence example, showing how functions can call themselves.
+
 **Usage**
 - **Prereq**: Install Rust and Cargo via `rustup`.
 - **Run a crate**:
