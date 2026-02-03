@@ -51,6 +51,10 @@ Rust learning workspace with a few standalone crates. Each folder is a separate 
 
 - **`24_recursion/`**: Introduction to recursion in Rust. Demonstrates recursive functions with the Fibonacci sequence example, showing how functions can call themselves.
 
+- **`25_stringtype/`**: Introduction to string types in Rust. Demonstrates the difference between string literals (&str) stored in the binary and heap-allocated String types that can be modified.
+
+- **`26_ownership_move/`**: Introduction to ownership in Rust. Demonstrates the Copy trait for stack-allocated types, Clone trait for heap-allocated types, and Move semantics where ownership is transferred.
+
 **Usage**
 - **Prereq**: Install Rust and Cargo via `rustup`.
 - **Run a crate**:
