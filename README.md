@@ -55,6 +55,8 @@ Rust learning workspace with a few standalone crates. Each folder is a separate 
 
 - **`26_ownership_move/`**: Introduction to ownership in Rust. Demonstrates the Copy trait for stack-allocated types, Clone trait for heap-allocated types, and Move semantics where ownership is transferred.
 
+- **`27_reference/`**: Introduction to references in Rust. Demonstrates borrowing values without taking ownership using the & operator, ensuring memory safety and avoiding null or dangling pointers.
+
 **Usage**
 - **Prereq**: Install Rust and Cargo via `rustup`.
 - **Run a crate**:
