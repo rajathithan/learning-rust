@@ -57,6 +57,8 @@ Rust learning workspace with a few standalone crates. Each folder is a separate 
 
 - **`27_reference/`**: Introduction to references in Rust. Demonstrates borrowing values without taking ownership using the & operator, dereferencing with *, how Rust automatically dereferences references for convenience, and creating multiple references to the same value, ensuring memory safety and avoiding null or dangling pointers.
 
+- **`28_mut_param/`**: Introduction to mutable parameters in functions. Demonstrates passing ownership of heap-allocated types like String to functions that modify them using mut parameters, and chaining functions that take and return ownership.
+
 **Usage**
 - **Prereq**: Install Rust and Cargo via `rustup`.
 - **Run a crate**:
