@@ -1,4 +1,5 @@
 // This example demonstrates passing ownership of a String to functions that modify it
+// You need to use mut to modify the String inside the function
 fn add_fries(mut meal: String) -> String {
     meal.push_str(" with fries");
     meal
