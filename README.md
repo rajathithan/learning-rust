@@ -53,9 +53,9 @@ Rust learning workspace with a few standalone crates. Each folder is a separate 
 
 - **`25_stringtype/`**: Introduction to string types in Rust. Demonstrates the difference between string literals (&str) stored in the binary and heap-allocated String types that can be modified.
 
-- **`26_ownership_move/`**: Introduction to ownership in Rust. Demonstrates the Copy trait for stack-allocated types, Clone trait for heap-allocated types, and Move semantics where ownership is transferred.
+- **`26_ownership_move/`**: Introduction to ownership in Rust. Demonstrates the Copy trait for stack-allocated types, Clone trait for heap-allocated types, Move semantics where ownership is transferred, and how ownership moves into functions.
 
-- **`27_reference/`**: Introduction to references in Rust. Demonstrates borrowing values without taking ownership using the & operator, dereferencing with *, and how Rust automatically dereferences references for convenience, ensuring memory safety and avoiding null or dangling pointers.
+- **`27_reference/`**: Introduction to references in Rust. Demonstrates borrowing values without taking ownership using the & operator, dereferencing with *, how Rust automatically dereferences references for convenience, and creating multiple references to the same value, ensuring memory safety and avoiding null or dangling pointers.
 
 **Usage**
 - **Prereq**: Install Rust and Cargo via `rustup`.

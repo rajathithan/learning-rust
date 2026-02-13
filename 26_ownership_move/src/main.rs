@@ -1,3 +1,9 @@
+fn ownership_move(value: String) {
+    println!("Inside ownership_move function: {}", value);
+} // value goes out of scope here and is dropped
+
+
+
 fn main() {
     // stack data types implement the Copy trait
     let num: i32 = 5;
@@ -30,5 +36,11 @@ fn main() {
     // value borrowed here after move
     
     //println!("welcomes: {}", welcomes); 
+
+    let farewell: String = String::from("Goodbye, world!");
+    ownership_move(farewell); // ownership of farewell is moved to the function 
+    // farewell can no longer be used after this point
+    // move occurs because `farewell` has type `String`, which does not implement the `Copy` trait
+    // println!("farewell: {}", farewell);
 
 }

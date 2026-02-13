@@ -2,7 +2,7 @@ fn main() {
 
     // pointers used in other languages may reference a memory location that may or may not be valid, and it can be null or dangling
     // A reference is always valid and cannot be null or dangling, it must always point to a valid value
-}
+
 
     // A reference is a type of pointer to a value that allows you to access the value without taking ownership of it
     // Generally for stack data types, we can use the copy trait to create a copy of the value, 
@@ -24,5 +24,10 @@ fn main() {
     println!("The value of greeting is: {}", *greeting_ref); // dereferencing greeting_ref to access the value of greeting
     println!("The value of greeting is: {}", greeting_ref); // Rust automatically dereferences greeting_ref to access the value of greeting
 
+    // References can be used to create multiple references to the same value without taking ownership
+    let apples : &str = "fruit";
+    let oranges : &str = apples;
+    println!("apple is a {} and orange is also a {}" , apples, oranges);
 }
     
+
