@@ -4,3 +4,4 @@
 *.exe
 .vscode/launch.json
 .vscode
+learning-rust.code-workspace
