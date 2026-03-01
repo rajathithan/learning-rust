@@ -59,6 +59,8 @@ Rust learning workspace with a few standalone crates. Each folder is a separate 
 
 - **`28_mut_param/`**: Introduction to mutable parameters in functions. Demonstrates passing ownership of heap-allocated types like String to functions that modify them using mut parameters, and chaining functions that take and return ownership.
 
+- **`29_mut_immut_ref/`**: Mutable and immutable references in Rust. Demonstrates borrowing a value mutably (`&mut`) to modify it in-place without taking ownership, using immutable references (`&`) for read-only access, and how functions can chain modifications through mutable borrows.
+
 **Usage**
 - **Prereq**: Install Rust and Cargo via `rustup`.
 - **Run a crate**:
