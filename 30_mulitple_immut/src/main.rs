@@ -18,7 +18,7 @@ fn main() {
     let ref3: &mut String = &mut car_motor;
     println!("The motor of the car is: {}", ref3);
     
-    // Immutatable reference to the same data with has a mutable reference is not allowed
+    // Immutatable reference to the same data that has a mutable reference is not allowed
 
     //let ref4: &String = &car_motor;
     //println!("The motor of the car is: {}", ref4);

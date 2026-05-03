@@ -5,3 +5,6 @@
 .vscode/launch.json
 .vscode
 learning-rust.code-workspace
+.DS_Store
+*/.DS_Store/
+.DS_Store
