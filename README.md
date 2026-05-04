@@ -61,6 +61,10 @@ Rust learning workspace with a few standalone crates. Each folder is a separate 
 
 - **`29_mut_immut_ref/`**: Mutable and immutable references in Rust. Demonstrates borrowing a value mutably (`&mut`) to modify it in-place without taking ownership, using immutable references (`&`) for read-only access, and how functions can chain modifications through mutable borrows.
 
+- **`30_mulitple_immut/`**: Introduction to multiple immutable references in Rust. Demonstrates that multiple immutable references to the same data are allowed simultaneously, ensuring data cannot be modified while being read, preventing data races. Also shows that only one mutable reference is allowed at a time.
+
+- **`31_own_mut_immut/`**: Introduction to ownership with mutable and immutable references in Rust. Demonstrates how immutable references can be copied, allowing multiple references, while mutable references move ownership, ensuring only one mutable path to the data at a time.
+
 **Usage**
 - **Prereq**: Install Rust and Cargo via `rustup`.
 - **Run a crate**:
