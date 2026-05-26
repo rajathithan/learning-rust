@@ -65,6 +65,10 @@ Rust learning workspace with a few standalone crates. Each folder is a separate 
 
 - **`31_own_mut_immut/`**: Introduction to ownership with mutable and immutable references in Rust. Demonstrates how immutable references can be copied, allowing multiple references, while mutable references move ownership, ensuring only one mutable path to the data at a time.
 
+- **`32_dangling_ref/`**: Introduction to dangling references in Rust. Demonstrates why returning references to local variables causes compilation errors, as the data would be deallocated when the function ends, and shows the correct way to return owned values to transfer ownership.
+
+- **`33_own_arr_tup/`**: Introduction to ownership with arrays and tuples in Rust. Demonstrates how Copy types (like bool) can be moved out of arrays and tuples, while non-Copy types (like String) require borrowing from arrays to avoid moving ownership, and how tuples allow partial moves of individual fields.
+
 **Usage**
 - **Prereq**: Install Rust and Cargo via `rustup`.
 - **Run a crate**:
